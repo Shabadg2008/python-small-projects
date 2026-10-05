@@ -16,4 +16,4 @@ A collection of beginner-friendly Python projects and scripts I built while lear
 1. Make sure you have [Python](https://www.python.org/) installed on your machine.
 2. Clone this repository:
    ```bash
-   git clone [https://github.com/ShabadG2008/python-small-projects.git](https://github.com/ShabadG2008/python-small-projects.git)
+   git clone https://github.com/Shabadg2008/python-small-projects.git
