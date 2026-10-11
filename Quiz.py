@@ -26,16 +26,23 @@ math_quiz = [
     }
 ]
 
-score = 0
-for question in math_quiz:
-    print(question["question"])
-    for option in question["options"]:
-        print(option)
-    ans = input("Select your answer\n").upper()
-    if ans == question["answer"]:
-        print("Correct")
-        score +=1
-    else:
-        print("Wrong")
-        
-print(f"Game Over, your final score is {score}/5!")
+while True:
+    score = 0
+    for question in math_quiz:
+        print(question["question"])
+        for option in question["options"]:
+            print(option)
+        ans = input("Select your answer\n").upper()
+        if ans == question["answer"]:
+            print("Correct")
+            score +=1
+        else:
+            print("Wrong")
+            
+    print(f"Game Over, your final score is {score}/5!")
+    play_again = input("Do you want to play again?\n").upper()
+    if play_again == "NO":
+        break
+
+
+
