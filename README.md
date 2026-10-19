@@ -12,7 +12,7 @@ A collection of beginner-friendly Python projects and scripts I built while lear
 * **Rock Paper Scissors** - A terminal-based classic game implementing game logic against a computer opponent.
 * **Time Clock** - A alarm program that shows a live countdown in the terminal. (Seconds)
 * **Countdown** - Enter a date (mm/dd/yr) and the terminal will show how many years, months, days, hours, minutes, and seconds are left.
-
+* **Weather Fetcher** - A Python program that fetches real-time temperature, wind speed, and weather conditions for any city based on user input using the OpenWeatherMap API
 ## How to Run
 
 1. Make sure you have [Python](https://www.python.org/) installed on your machine.
