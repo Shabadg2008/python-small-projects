@@ -11,6 +11,7 @@ A collection of beginner-friendly Python projects and scripts I built while lear
 * **Number Guessing Game** - An interactive game where the user tries to guess a randomly generated number within a set range with hint prompts.
 * **Rock Paper Scissors** - A terminal-based classic game implementing game logic against a computer opponent.
 * **Time Clock** - A alarm program that shows a live countdown in the terminal. (Seconds)
+* **Countdown** - Enter a date (mm/dd/yr) and the terminal will show how many years, months, days, hours, minutes, and seconds are left.
 
 ## How to Run
 
