@@ -1,0 +1,12 @@
+import requests 
+currency1 = int(input("How much USD do you want to convert? \n$"))
+currency2 = input("To which currency would you like to conver this to? \n").upper()
+api = "c8b37299cd934fcfe51010e7"
+url = f"https://v6.exchangerate-api.com/v6/{api}/latest/USD"
+response = requests.get(url)
+if response.status_code == 200:
+    currency_conversion = response.json()
+    converted_rate = currency_conversion ['conversion_rates'][currency2]
+    final_ans = converted_rate * currency1
+    print(f"{final_ans:.2f}")
+    
